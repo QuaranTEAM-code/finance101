@@ -8,7 +8,7 @@
 
 # Install [Flask](https://flask.palletsprojects.com/en/1.1.x/installation/)
 
-Mac or Linux
+**Mac or Linux**
 - fork repo (https://github.com/QuaranTEAM-code/finance101)
 - git clone https://github.com/{username}/finance101
 - cd finance101
@@ -20,12 +20,12 @@ Mac or Linux
 - flask initdb
 - flask run
 
-Windows
-- fork repo (https://github.com/QuaranTEAM-code/finance101)
+**Windows**
+
+  fork repo (https://github.com/QuaranTEAM-code/finance101)
 - cmd ( cd Dekstop)
 - git clone https://github.com/{username}/finance101
-- cd finance101
--  py -3 -m venv venv (creating an V.Env && only created one Time)(single time)
+-  py -3 -m venv venv (creating an V.Env && only created one Time)(**First Time**)
 - venv\Scripts\activate
 - pip3 install flask
 - set FLASK_APP=fin
@@ -36,12 +36,18 @@ Windows
 - open  http://127.0.0.1:5000/home
 
 
-# Update
+
+# Update (First Time)
 - git remote -v
 - git remote add upstream https://github.com/QuaranTEAM-code/finance101 (single time)
 - git fetch upstream
 - git checkout master
 - git merge upstream/master
+
+------
+- git pull (**After above steps .. use git pull to update each time**)
+
+
 
 
 # Contribute
