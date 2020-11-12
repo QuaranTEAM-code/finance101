@@ -1,18 +1,21 @@
+# POCKET SENSE
+<p align="center">
+  <img src="https://raw.githubusercontent.com/karthikeyanrathore/finance101/master/docs/logo.jpg">
+</p>
 
-# ~finance101~ POCKET SENSE
-
-# Requirements
+--------------------------------------------------------------------
+### Requirements
 ```
 - Python 3.6.9
 - Flask 1.1.2
 - Werkzeug 1.0.1
 ```
 
-# Install [Flask](https://flask.palletsprojects.com/en/1.1.x/installation/)
+### Install [Flask](https://flask.palletsprojects.com/en/1.1.x/installation/)
 
 **Mac or Linux**
 ```
-- fork repo (https://github.com/QuaranTEAM-code/finance101)
+- fork repo (https://github.com/karthikeyanrathore/finance101)
 - git clone https://github.com/{username}/finance101
 - cd finance101
 - python3 -m venv venv 
@@ -22,11 +25,12 @@
 - export FLASK_ENV=development
 - flask initdb
 - flask run
+- open  http://127.0.0.1:5000/home
 ```
 
 **Windows**
 ```
-  fork repo (https://github.com/QuaranTEAM-code/finance101)
+  fork repo (https://github.com/karthikeyanrathore/finance101)
 - cmd ( cd Dekstop)
 - git clone https://github.com/{username}/finance101
 -  py -3 -m venv venv (creating an V.Env && only created one Time)(**First Time**)
@@ -34,75 +38,60 @@
 - pip3 install flask
 - set FLASK_APP=fin
 - set FLASK_ENV=development
--  *before running our application .. initiate the database*
-- flask initdb (empty db)
+- flask initdb
 - flask run 
 - open  http://127.0.0.1:5000/home
 ```
 
-# Structure 
+
+### Structure 
 ```
-   .
-  ├── fin
-  │   ├── auth.py
-  │   ├── db.py
-  │   ├── __init__.py
-  │   ├── schema.sql
-  │   ├── static
-  │   │   └── style.css
-  │   ├── templates
-  │   │   ├── auth
-  │   │   │   ├── child_email_required.html
-  │   │   │   ├── child_forget_passw.html
-  │   │   │   ├── child_login.html
-  │   │   │   ├── child_register.html
-  │   │   │   ├── parent_login.html
-  │   │   │   ├── parent_register.html
-  │   │   │   └── update_child_passw.html
-  │   │   ├── base.html
-  │   │   ├── child_base.html
-  │   │   ├── child_index.html
-  │   │   ├── home.html
-  │   │   ├── parent_index.html
-  │   │   └── update_child_passw_base.html   
-  ├── instance
-  │   └── fin.sqlite
-  ├── PocketSense1
-  │   ├── css
-  │   │   └── styles.css
-  │   ├── index.html
-  │   └── Login-Register
-  │       ├── cRegister.html
-  │       ├── css
-  │       │   ├── main.css
-  │       │   └── util.css
-  │       ├── index.html
-  │       ├── pLogin.html
-  │       └── pRegister.html
-  ├── Procfile
-  ├── __pycache__
-  │   └── secret.cpython-36.pyc
-  ├── README.md
-  ├── requirements.txt
-  └── secret.py
+ .
+├── finance101
+│   ├── fin
+│   │   ├── auth.py
+│   │   ├── db.py
+│   │   ├── goal.py
+│   │   ├── __init__.py
+│   │   ├── schema.sql
+│   │   ├── static
+│   │   ├── templates
+│   │   │   ├── auth
+│   │   │   ├── goal
+│   │   └── venv
+│   ├── instance
+│   │   └── fin.sqlite
+│   ├── PocketSense1
+│   ├── Procfile
+│   ├── __pycache__
+│   ├── README.md
+│   ├── requirements.txt
+│   └── secret.py
+├── in
+├── instance
+└── README.md
 
-  ```
+```
 
-# Update (First Time)
+### Update (First Time)
+
 ```
 - git remote -v
-- git remote add upstream https://github.com/QuaranTEAM-code/finance101 (single time)
+- git remote add upstream https://github.com/karthikeyanrathore/finance101 (single time)
 - git fetch upstream
 - git checkout master
 - git merge upstream/master
 
 ------
+
 - git pull (**After above steps .. use git pull to update each time**)
+
 ```
 
 
 
-# Contribute
+### Contribute
+
 ```
 - git add {new code added in file .file_name}
 - git commit -m "New Feature Added"
@@ -110,6 +99,10 @@
 - create a pull request
 
 ```
+
+### team
+
+
 
 
 
